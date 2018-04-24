@@ -30,7 +30,7 @@ source("makeTables2016.R")
 barchartGC(xsex_sex,type = "percent")
 ```
 
-Make comments about male and females having opposing opinions.
+Make comments about males & femalesand their opposing opinions. Also why the blue bars are rising and the pink bars are decreasing.
 
 ```{r}
 chisqtestGC(xsex_sex,graph = TRUE)
