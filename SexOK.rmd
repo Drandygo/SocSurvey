@@ -34,7 +34,7 @@ source("makeTables2016.R")
 barchartGC(xsex_polv,type = "percent")
 ```
 
-Make comments about Liberals, Conservatives and Moderates having opposing opinions.
+Make comments about Liberals and Conservatives and why Moderates are close to each other in percentage.
 
 ```{r}
 chisqtestGC(xsex_polv,graph = TRUE)
