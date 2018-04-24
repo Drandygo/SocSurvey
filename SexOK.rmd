@@ -57,6 +57,16 @@ chisqtestGC(xsex_polv,graph = TRUE)
 ## Relationship Status
 
 
+```{r}
+source("makeTables2016.R")
+barchartGC(xmsex_table,type = "percent")
+```
+
+Make comments about which group thinks having pre-marital sex is fine, whether hooked up or single.
+
+```{r}
+chisqtestGC(xmsex_table,graph = TRUE)
+```
 
 
 
