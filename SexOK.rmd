@@ -29,6 +29,18 @@ source("Import_GSS2016_haven.R")
 
 # Polyviews
 
+```{r}
+source("makeTables2016.R")
+barchartGC(xsex_polv,type = "percent")
+```
+
+Make comments about Liberals, Conservatives and Moderates having opposing opinions.
+
+```{r}
+chisqtestGC(xsex_polv,graph = TRUE)
+```
+
+
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ## Relationship Status
