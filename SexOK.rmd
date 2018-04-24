@@ -40,6 +40,18 @@ chisqtestGC(xsex_sex,graph = TRUE)
 
 # Polyviews
 
+```{r}
+source("makeTables2016.R")
+barchartGC(xsex_polv,type = "percent")
+```
+
+Make comments about Liberals and Conservatives and why Moderates are close to each other in percentage.
+
+```{r}
+chisqtestGC(xsex_polv,graph = TRUE)
+```
+
+
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ## Relationship Status
